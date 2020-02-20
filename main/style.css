@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 80px;
+    background-color: #000000;
+    margin-top: 0;
+    display: flex;
+    border-bottom: 3px solid orangered;
+    border-top: 3px solid orangered;
+}
+
+ul {
+    list-style: none;
+    color: white;
+    display: flex;
+    padding-left: 5%;
+    margin: auto;
+}
+
+ul li {
+    margin-right: 40px;
+    margin-top: 0;
+}
+
+ul li:last-child {
+margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+ul li a:hover {
+    font-size: 28px;
+    color: darkgray;
+}
+
+img {
+    height: 160%;
+    margin-left: 30px;
+    margin-top: -5%;
+}
+
+.content {
+    background: url(../imgs/fon.jpg);
+    background-size: 1920px;
+    height: 470px;
+    padding-top: 200px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 100px;
+    border:5px dotted orangered;
+    text-shadow: orangered 2px 2px 2px;
+}
