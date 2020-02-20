@@ -41,7 +41,7 @@ ul li a:hover {
     color: darkgray;
 }
 
-img {
+.header img {
     height: 160%;
     margin-left: 30px;
     margin-top: -5%;
@@ -50,10 +50,30 @@ img {
 .content {
     background: url(../imgs/fon.jpg);
     background-size: 1920px;
-    height: 1080px;
+    height: 570px;
+    padding-top: 200px;
+    padding-left: 25%;
+    display: flex;
 }
 
 #gallery {
     color: gray;
     font-size: 26px;
+}
+
+.picture {
+    width: 20%;
+    margin-right: 5%;
+}
+.picture:last-child {
+    margin-top: 0;
+}
+
+.content img {
+    width: 200px;
+    height: 200px;
+}
+
+h3 {
+    text-align: center;
 }
