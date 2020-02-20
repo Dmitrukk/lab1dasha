@@ -79,3 +79,9 @@ h1 {
 p {
     font-size: 18px;
 }
+
+.comment {
+    margin: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
