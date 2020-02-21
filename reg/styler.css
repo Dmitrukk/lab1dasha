@@ -8,8 +8,8 @@ body {
     background-color: #000000;
     margin-top: 0;
     display: flex;
-    border-bottom: 3px solid orangered;
-    border-top: 3px solid orangered;
+    border-bottom: 3px solid white;
+    border-top: 3px solid black;
 }
 
 ul {
@@ -48,7 +48,7 @@ img {
 }
 
 .content {
-    background: url(../imgs/fon.jpg);
+    background: url(../imgs/fon3.jpg);
     background-size: 1920px;
     height: 1080px;
 }
@@ -56,4 +56,70 @@ img {
 #reg {
     color: gray;
     font-size: 26px;
+}
+
+form {
+    padding-top: 100px;
+    padding-left: 300px;
+}
+
+label {
+    text-transform: uppercase;
+    color:white;
+    text-shadow: black 1px 1px 2px;
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+label:last-child {
+    margin-top: 50px;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    padding: 0;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.labels {
+    height: 36px;
+    display: flex;
+    margin: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#radio {
+    width: 40px;
+    margin-right: 100px;
+}
+
+select {
+    margin-right: 10px;
+}
+
+#check {
+    margin: 0;
+    width: 100px;
+}
+
+#dish {
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+textarea {
+    height: 150px;
+    margin-top: 50px;
+}
+
+#submit {
+    height: 50px;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-left: 150px;
 }

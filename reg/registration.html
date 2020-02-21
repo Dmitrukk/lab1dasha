@@ -18,7 +18,49 @@
         </ul>
     </div>
     <div class="content">
-
+        <form>
+            <div class="labels">
+            <label>Фамилия</label><input type="text">
+        </div>
+        <div class="labels">
+            <label>Имя</label><input type="text" >
+        </div>
+        <div class="labels">
+            <label>Отчество</label><input type="text" >
+        </div>
+        <div class="labels">
+            <label>Добавьте фотографию</label><input type="file" style="width: 400px;">
+        </div>
+        <div class="labels">
+            <label>Адрес электронной почты</label><input type="email">
+        </div>
+        <div class="labels">
+            <label>Пароль</label><input type="password">
+        </div>
+        <div class="labels">
+            <label>Адрес сайта</label><input type="text" value="http://">
+        </div>
+        <div class="labels">
+            <label>Выберите пол</label><h1>Мужской</h1><input id="radio" name="radio" type="radio" onchange="fun1()"><h1>Женский</h1><input type="radio" name="radio" id="radio" onchange="fun1()">
+        </div>
+        <div class="labels">
+            <label>Выберите дату рождения</label>
+            <input type="date" min="1980-01" value="2020-02">
+        </div>
+        <div class="labels" id="dish">
+            <label>Блюда какой кухни предпочитаете?</label>
+        <input id="check" type="checkbox">Мексиканская
+        <input id="check" type="checkbox">Белорусская
+        <input id="check" type="checkbox">Вьетнамская
+        <input id="check" type="checkbox">Грузинская
+        </div>
+        <div class="labels">
+            <label style="margin-top: 50px;">О себе в произвольной форме</label><br>
+            <textarea cols="50" rows="40"></textarea>
+        </div>
+        <input id="submit" name="submit" type="submit" value="Зарегистрироваться">
+        <input id="submit" name="clear" type="reset" value="Очистить">
+        </form>
     </div>
 </body>
 </html>

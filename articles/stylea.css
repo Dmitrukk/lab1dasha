@@ -85,3 +85,9 @@ p {
     background: rgba(0, 0, 0, 0.7);
     padding: 10px;
 }
+
+.content a:hover {
+    color: red;
+    text-decoration: none;
+}
+
